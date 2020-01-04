@@ -1,46 +1,5 @@
 
 TODOS for Vincent SNC
-
-
-- edit 'listino prezzi' for a new correct version
-
-
-TODOS for Kadè Vincent
-
-- choose a quote in homepage
-
-- check biography
-
-- check last photo in gallery 'title' and 'description' (figliakade.jpg)
-
-- send all pics for adding them in gallery
-
-- send all tracks in .mp3 for adding them to music section
-
-- change the artist's portfolio profile pic (in this moment it's a little bit  bad :( )
-
-- check for footbar
-
-- check all section background colors
-
-fooooooooooooteerrrrrrrrr
- <div class="footer" style="margin-bottom: 0; height:210px; background-color:#212529">
-          <p style="padding-top: 5px; color: azure; text-align: center; font-size: 20px">
-              <b style="color:#B931B3"> Vincent s.n.c </b>
-              <a style="font-size: 12px">di Gianni Maffi & Co</a>   
-              
-          </p>
-          <p style="padding-top: 5px; color: azure; text-align: center;  font-size: 12px">
-              Sede legale in Via Albrizzi 13, 24058 Romano di Lombardia (BG)    
-          </p>
-          <p style="padding-top: 5px; color: azure; text-align: center;   font-size: 12px">
-            Partiva Iva: 02058800166 
-        </p>
-          <p style="padding-top: 5px; color: azure; text-align: center; font-size: 12px">
-              Email: vincent.gualandris@libero.it
-          </p>
-          <p style="padding-top: 5px; color: azure; text-align: center; font-size: 12px">
-              Powered by Znieczu
-              2018
-          </p>
-      </div>
+- Move pics from Decorazioni page to home page second slider
+- On click second slider open the whole pic with description
+- Admin page for add new pics

@@ -91,6 +91,8 @@
   }
   #mainNav .navbar-brand{
     font-weight:700;
+    font-size: 2.5rem;
+    margin-top: 10px;
     color:#B931B3;
     font-family:'Open Sans','Helvetica Neue',Arial,sans-serif
   }
