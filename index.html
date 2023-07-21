@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
- <!-- Global site tag (gtag.js) - Google Analytics -->
- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149937908-1"></script>
- <script>
-   window.dataLayer = window.dataLayer || [];
-   function gtag(){dataLayer.push(arguments);}
-   gtag('js', new Date());
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149937908-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-   gtag('config', 'UA-149937908-1');
- </script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-149937908-1');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -61,39 +64,295 @@
     />
   </head>
 
-  <body id="page-top">
+<body id="page-top">
     <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         window.jssor_1_slider_init = function() {
 
             var jssor_1_SlideoTransitions = [
-              [{b:500,d:1000,x:0,e:{x:6}}],
-              [{b:-1,d:1,x:100,p:{x:{d:1,dO:9}}},{b:0,d:2000,x:0,e:{x:6},p:{x:{dl:0.1}}}],
-              [{b:-1,d:1,x:200,p:{x:{d:1,dO:9}}},{b:0,d:2000,x:0,e:{x:6},p:{x:{dl:0.1}}}],
-              [{b:-1,d:1,rX:20,rY:90},{b:0,d:4000,rX:0,e:{rX:1}}],
-              [{b:-1,d:1,rY:-20},{b:0,d:4000,rY:-90,e:{rY:7}}],
-              [{b:-1,d:1,sX:2,sY:2},{b:1000,d:3000,sX:1,sY:1,e:{sX:1,sY:1}}],
-              [{b:-1,d:1,sX:2,sY:2},{b:1000,d:5000,sX:1,sY:1,e:{sX:3,sY:3}}],
-              [{b:-1,d:1,tZ:300},{b:0,d:2000,o:1},{b:3500,d:3500,tZ:0,e:{tZ:1}}],
-              [{b:-1,d:1,x:20,p:{x:{o:33,r:0.5}}},{b:0,d:1000,x:0,o:0.5,e:{x:3,o:1},p:{x:{dl:0.05,o:33},o:{dl:0.02,o:68,rd:2}}},{b:1000,d:1000,o:1,e:{o:1},p:{o:{dl:0.05,o:68,rd:2}}}],
-              [{b:-1,d:1,rY:-720},{b:0,d:4000,rY:60,e:{rY:10}}],
-              [{b:-1,d:1,x:400,y:200,rX:720,rY:720,p:{x:{d:1,dO:4,c:4},y:{d:1,dO:4,c:4},rX:{d:1,dO:68,c:4},rY:{d:1,dO:4,c:68}}},{b:0,d:4000,x:0,y:0,o:1,rX:0,rY:0,e:{x:13,y:13,o:13,rX:13,rY:13},p:{x:{dl:0.02,o:4},y:{dl:0.02,o:4},o:{dl:0.05,o:4},rX:{dl:0.02,o:4},rY:{dl:0.02,o:4}}}],
-              [{b:0,d:1000,o:1,p:{o:{o:4}}}],
-              [{b:1000,d:1000,o:1,p:{o:{o:4}}}]
+                [{
+                    b: 500,
+                    d: 1000,
+                    x: 0,
+                    e: {
+                        x: 6
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    x: 100,
+                    p: {
+                        x: {
+                            d: 1,
+                            dO: 9
+                        }
+                    }
+                }, {
+                    b: 0,
+                    d: 2000,
+                    x: 0,
+                    e: {
+                        x: 6
+                    },
+                    p: {
+                        x: {
+                            dl: 0.1
+                        }
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    x: 200,
+                    p: {
+                        x: {
+                            d: 1,
+                            dO: 9
+                        }
+                    }
+                }, {
+                    b: 0,
+                    d: 2000,
+                    x: 0,
+                    e: {
+                        x: 6
+                    },
+                    p: {
+                        x: {
+                            dl: 0.1
+                        }
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    rX: 20,
+                    rY: 90
+                }, {
+                    b: 0,
+                    d: 4000,
+                    rX: 0,
+                    e: {
+                        rX: 1
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    rY: -20
+                }, {
+                    b: 0,
+                    d: 4000,
+                    rY: -90,
+                    e: {
+                        rY: 7
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    sX: 2,
+                    sY: 2
+                }, {
+                    b: 1000,
+                    d: 3000,
+                    sX: 1,
+                    sY: 1,
+                    e: {
+                        sX: 1,
+                        sY: 1
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    sX: 2,
+                    sY: 2
+                }, {
+                    b: 1000,
+                    d: 5000,
+                    sX: 1,
+                    sY: 1,
+                    e: {
+                        sX: 3,
+                        sY: 3
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    tZ: 300
+                }, {
+                    b: 0,
+                    d: 2000,
+                    o: 1
+                }, {
+                    b: 3500,
+                    d: 3500,
+                    tZ: 0,
+                    e: {
+                        tZ: 1
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    x: 20,
+                    p: {
+                        x: {
+                            o: 33,
+                            r: 0.5
+                        }
+                    }
+                }, {
+                    b: 0,
+                    d: 1000,
+                    x: 0,
+                    o: 0.5,
+                    e: {
+                        x: 3,
+                        o: 1
+                    },
+                    p: {
+                        x: {
+                            dl: 0.05,
+                            o: 33
+                        },
+                        o: {
+                            dl: 0.02,
+                            o: 68,
+                            rd: 2
+                        }
+                    }
+                }, {
+                    b: 1000,
+                    d: 1000,
+                    o: 1,
+                    e: {
+                        o: 1
+                    },
+                    p: {
+                        o: {
+                            dl: 0.05,
+                            o: 68,
+                            rd: 2
+                        }
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    rY: -720
+                }, {
+                    b: 0,
+                    d: 4000,
+                    rY: 60,
+                    e: {
+                        rY: 10
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    x: 400,
+                    y: 200,
+                    rX: 720,
+                    rY: 720,
+                    p: {
+                        x: {
+                            d: 1,
+                            dO: 4,
+                            c: 4
+                        },
+                        y: {
+                            d: 1,
+                            dO: 4,
+                            c: 4
+                        },
+                        rX: {
+                            d: 1,
+                            dO: 68,
+                            c: 4
+                        },
+                        rY: {
+                            d: 1,
+                            dO: 4,
+                            c: 68
+                        }
+                    }
+                }, {
+                    b: 0,
+                    d: 4000,
+                    x: 0,
+                    y: 0,
+                    o: 1,
+                    rX: 0,
+                    rY: 0,
+                    e: {
+                        x: 13,
+                        y: 13,
+                        o: 13,
+                        rX: 13,
+                        rY: 13
+                    },
+                    p: {
+                        x: {
+                            dl: 0.02,
+                            o: 4
+                        },
+                        y: {
+                            dl: 0.02,
+                            o: 4
+                        },
+                        o: {
+                            dl: 0.05,
+                            o: 4
+                        },
+                        rX: {
+                            dl: 0.02,
+                            o: 4
+                        },
+                        rY: {
+                            dl: 0.02,
+                            o: 4
+                        }
+                    }
+                }],
+                [{
+                    b: 0,
+                    d: 1000,
+                    o: 1,
+                    p: {
+                        o: {
+                            o: 4
+                        }
+                    }
+                }],
+                [{
+                    b: 1000,
+                    d: 1000,
+                    o: 1,
+                    p: {
+                        o: {
+                            o: 4
+                        }
+                    }
+                }]
             ];
 
             var jssor_1_options = {
-              $AutoPlay: 1,
-              $CaptionSliderOptions: {
-                $Class: $JssorCaptionSlideo$,
-                $Transitions: jssor_1_SlideoTransitions
-              },
-              $ArrowNavigatorOptions: {
-                $Class: $JssorArrowNavigator$
-              },
-              $BulletNavigatorOptions: {
-                $Class: $JssorBulletNavigator$
-              }
+                $AutoPlay: 1,
+                $CaptionSliderOptions: {
+                    $Class: $JssorCaptionSlideo$,
+                    $Transitions: jssor_1_SlideoTransitions
+                },
+                $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$
+                },
+                $BulletNavigatorOptions: {
+                    $Class: $JssorBulletNavigator$
+                }
             };
 
             var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
@@ -111,8 +370,7 @@
                     var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
 
                     jssor_1_slider.$ScaleWidth(expectedWidth);
-                }
-                else {
+                } else {
                     window.setTimeout(ScaleSlider, 30);
                 }
             }
@@ -150,79 +408,136 @@
     <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic" rel="stylesheet" type="text/css" />
     <style>
         /*jssor slider loading skin double-tail-spin css*/
+        
         .jssorl-004-double-tail-spin img {
             animation-name: jssorl-004-double-tail-spin;
             animation-duration: 1.6s;
             animation-iteration-count: infinite;
             animation-timing-function: linear;
         }
-
+        
         @keyframes jssorl-004-double-tail-spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
         }
-
         /*jssor slider bullet skin 031 css*/
-        .jssorb031 {position:absolute;}
-        .jssorb031 .i {position:absolute;cursor:pointer;}
-        .jssorb031 .i .b {fill:#000;fill-opacity:0.5;stroke:#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}
-        .jssorb031 .i:hover .b {fill:#fff;fill-opacity:.7;stroke:#000;stroke-opacity:.5;}
-        .jssorb031 .iav .b {fill:#fff;stroke:#000;fill-opacity:1;}
-        .jssorb031 .i.idn {opacity:.3;}
-
+        
+        .jssorb031 {
+            position: absolute;
+        }
+        
+        .jssorb031 .i {
+            position: absolute;
+            cursor: pointer;
+        }
+        
+        .jssorb031 .i .b {
+            fill: #000;
+            fill-opacity: 0.5;
+            stroke: #fff;
+            stroke-width: 1200;
+            stroke-miterlimit: 10;
+            stroke-opacity: 0.3;
+        }
+        
+        .jssorb031 .i:hover .b {
+            fill: #fff;
+            fill-opacity: .7;
+            stroke: #000;
+            stroke-opacity: .5;
+        }
+        
+        .jssorb031 .iav .b {
+            fill: #fff;
+            stroke: #000;
+            fill-opacity: 1;
+        }
+        
+        .jssorb031 .i.idn {
+            opacity: .3;
+        }
         /*jssor slider arrow skin 051 css*/
-        .jssora051 {display:block;position:absolute;cursor:pointer;}
-        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
-        .jssora051:hover {opacity:.8;}
-        .jssora051.jssora051dn {opacity:.5;}
-        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+        
+        .jssora051 {
+            display: block;
+            position: absolute;
+            cursor: pointer;
+        }
+        
+        .jssora051 .a {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 360;
+            stroke-miterlimit: 10;
+        }
+        
+        .jssora051:hover {
+            opacity: .8;
+        }
+        
+        .jssora051.jssora051dn {
+            opacity: .5;
+        }
+        
+        .jssora051.jssora051ds {
+            opacity: .3;
+            pointer-events: none;
+        }
     </style>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.html" style="font-family: 'Courgette', cursive;">"Vincent" <span style="font-size:16px">s.n.c</span></a>
-        <button class="navbar-toggler navbar-dark navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="index.html" style="height: 50px;">
+                <div style="position: absolute; top: -5px;">
+                    <img src="img/LogoVincent.svg" width="150" />
+                </div>
+            </a>
+            <button class="navbar-toggler navbar-dark navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="it nav-link js-scroll-trigger" href="#">Home</a>
-              <a class="en nav-link js-scroll-trigger" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="it nav-link js-scroll-trigger" href="company/storia.html">Storia</a>
-              <a class="en nav-link js-scroll-trigger" href="company/storia.html">History</a>
-            </li>
-            <li class="nav-item">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="it nav-link js-scroll-trigger" href="#">Home</a>
+                        <a class="en nav-link js-scroll-trigger" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="it nav-link js-scroll-trigger" href="company/storia.html">Storia</a>
+                        <a class="en nav-link js-scroll-trigger" href="company/storia.html">History</a>
+                    </li>
+                    <!-- <li class="nav-item">
               <a class="it nav-link js-scroll-trigger" href="company/prezzi.html">Prezzi</a>
               <a class="en nav-link js-scroll-trigger" href="company/prezzi.html">Prices</a>
-            </li>
-            <li class="nav-item">
-              <a class="it nav-link js-scroll-trigger" href="company/decorazioni.html">Decorazioni</a>
-              <a class="en nav-link js-scroll-trigger" href="company/decorazioni.html">Decorations</a>
-            </li>
-            <li class="nav-item">
-              <a class="it nav-link js-scroll-trigger" href="company/mappa.html">Dove ci trovi</a>
-              <a class="en nav-link js-scroll-trigger" href="company/mappa.html">Where we are</a>
-            </li>
-            <li class="nav-item">
-                <a class="it nav-link js-scroll-trigger" href="company/contatti.html">Contatti</a>
-                <a class="en nav-link js-scroll-trigger" href="company/contatti.html">Contacts</a>              
-              </li>
-            <li class="nav-item">
+            </li> -->
+                    <li class="nav-item">
+                        <a class="it nav-link js-scroll-trigger" href="company/decorazioni.html">Lavori</a>
+                        <a class="en nav-link js-scroll-trigger" href="company/decorazioni.html">Decorations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="it nav-link js-scroll-trigger" href="company/mappa.html">Dove ci trovi</a>
+                        <a class="en nav-link js-scroll-trigger" href="company/mappa.html">Where we are</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="it nav-link js-scroll-trigger" href="company/contatti.html">Contatti</a>
+                        <a class="en nav-link js-scroll-trigger" href="company/contatti.html">Contacts</a>
+                    </li>
+                    <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="./kadevincent.html">Kadè Vincent</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#it" id="dropdown09" data-toggle="dropdown"><span class="flag-icon flag-icon-it"></span>IT</a>
-              <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#it" onclick="italian()"><span class="flag-icon flag-icon-it"></span>IT</a>
-                  <a class="dropdown-item" href="#en"  onclick="english()"><span class="flag-icon flag-icon-us"></span>EN</a>
-              </div>
-            </li>
-          </ul>
+            </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#it" id="dropdown09" data-toggle="dropdown"><span class="flag-icon flag-icon-it"></span>IT</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#it" onclick="italian()"><span class="flag-icon flag-icon-it"></span>IT</a>
+                            <a class="dropdown-item" href="#en" onclick="english()"><span class="flag-icon flag-icon-us"></span>EN</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
       <!-- Start Slider Area -->
       <!-- Slider main container -->
@@ -290,91 +605,89 @@
                 <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
                     <circle class="b" cx="8000" cy="8000" r="5800"></circle>
                 </svg>
-            </div>
-        </div>
-        <!-- Arrow Navigator -->
-        <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
-            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    </div>
+                </div>
+                <!-- Arrow Navigator -->
+                <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                    <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
                 <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
             </svg>
-        </div>
-        <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
-            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                </div>
+                <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                    <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
                 <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
             </svg>
+                </div>
+            </div>
         </div>
-    </div>
-    </div>
-  </section>
-  <hr>
+    </section>
+    <hr>
     <hr>
     <footer>
-      <div class="footer-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12">
-              <div class="footer-content">
-                <div class="footer-head">
-                  <div class="footer-logo">
-                    <h2 style="color:#B931B3; font-family: 'Courgette', cursive;">"Vincent" <i style="font-size: 25px">s.n.c</i></h2>
-                  </div>
-  
-                  <p class="it">di Gianni Maffi & Co</p>
-                  <p class="en">of Gianni Maffi & Co</p>
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <div class="footer-logo">
+                                    <img src="img/LogoVincent.svg" width="250" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end single footer -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <h4 class="it">Informazioni</h4>
+                                <h4 class="en">Information</h4>
+                                <div class="footer-contacts">
+                                    <p class="it"><span>Sede legale:</span> Via Albrizzi 13, 24058 Romano di Lombardia (BG)</p>
+                                    <p class="en"><span>Headquarter:</span> Via Albrizzi 13, 24058 Romano di Lombardia (BG)</p>
+                                    <p class="it"><span>Partiva Iva:</span> 02058800166</p>
+                                    <p class="en"><span>VAT:</span> 02058800166</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end single footer -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <h4 class="it">Contatti</h4>
+                                <h4 class="en">Contacts</h4>
+                                <div class="footer-contacts">
+                                    <p><span>Tel:</span> <a href="tel:348 6406963">348 6406963</a></p>
+                                    <p><span>Email:</span>
+                                        <br><a href="mailto:vincent.gualandris@libero.it">vincent.gualandris@libero.it</a><br><a href="mailto:info@vincentsnc.it">info@vincentsnc.it</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            <!-- end single footer -->
-            <div class="col-md-4 col-sm-4 col-xs-12">
-              <div class="footer-content">
-                <div class="footer-head">
-                  <h4 class="it">Informazioni</h4>
-                  <h4 class="en">Information</h4>
-                  <div class="footer-contacts">
-                    <p class="it"><span>Sede legale:</span>  Via Albrizzi 13, 24058 Romano di Lombardia (BG)</p>
-                    <p class="en"><span>Headquarter:</span>  Via Albrizzi 13, 24058 Romano di Lombardia (BG)</p>
-                    <p class="it"><span>Partiva Iva:</span> 02058800166</p>
-                    <p class="en"><span>VAT:</span> 02058800166</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- end single footer -->
-            <div class="col-md-4 col-sm-4 col-xs-12">
-              <div class="footer-content">
-                <div class="footer-head">
-                  <h4 class="it">Contatti</h4>
-                  <h4 class="en">Contacts</h4>
-                  <div class="footer-contacts">
-                    <p><span>Tel:</span> 348 2604134 / 348 2654090</p>
-                    <p><span>Email:</span> vincent.gualandris@libero.it</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="footer-area-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="copyright text-center">
-                <p>
-                  &copy; Copyright <strong>"Vincent" snc</strong> All Rights Reserved
-                </p>
-              </div>
-              <div class="credits">
-                Designed by Znieczu
-              </div>
+        <div class="footer-area-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="copyright text-center">
+                            <p>
+                                &copy; Copyright <strong>"Vincent" snc</strong> All Rights Reserved
+                            </p>
+                        </div>
+                        <div class="credits">
+                            Designed by Znieczu
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </footer>
-  
 
-     
+
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -410,5 +723,11 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
   </body>
+
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init();
+    </script>
+</body>
 
 </html>

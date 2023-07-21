@@ -16,7 +16,6 @@ Supports Thumbs: true
 }
 
 .slider-content {
-  padding: 180px 60px;
 }
 
 .nivo-caption::after {
@@ -126,7 +125,7 @@ Supports Thumbs: true
 
 @media (min-width: 1400px) and (max-width:1920px) {
   .slider-content {
-    padding: 250px 0;
+    padding: 0;
   }
 }
 
